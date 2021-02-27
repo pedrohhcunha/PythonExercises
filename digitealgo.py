@@ -1,0 +1,13 @@
+a = input('Digite algo : ')
+b = type(a)
+
+print('Você digitou: {0} \n{0} é uma variavel do tipo: {1}'.format(a, b))
+print('Só tem espaços? {}' .format(a.isspace()))
+print('É um numerico? {}'.format(a.isnumeric()))
+print('É decimal? {}'.format(a.isdecimal()))
+print('É alfabetico? {}'.format(a.isalpha()))
+print('Está em maiusculas? {}'.format(a.isupper()))
+print('Está em minusculas? {}'.format(a.islower()))
+print('Está capitaizado? {}'.format(a.istitle()))
+print('')
+print('Essas são informações sobre: {}'.format(a))
